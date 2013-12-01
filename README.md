@@ -1,4 +1,4 @@
 Swinger
 =======
 
-Swinger - side scrolling game.
+Side scrolling, endless runner.
