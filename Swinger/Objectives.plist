@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>001</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_CatchARope</string>
+		<key>Description</key>
+		<string>Swing from a rope</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>002</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_ShootFromCannon</string>
+		<key>Description</key>
+		<string>Shoot from a cannon</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>003</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_KilledInsect</string>
+		<key>Description</key>
+		<string>Kill an insect</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>004</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_KilledByInsect</string>
+		<key>Description</key>
+		<string>Get killed by an insect</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>005</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_Catch5Ropes</string>
+		<key>Description</key>
+		<string>Swing from 5 ropes</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>006</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_ShootFrom5Cannons</string>
+		<key>Description</key>
+		<string>Shoot from 5 cannons</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>007</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_Killed5Insects</string>
+		<key>Description</key>
+		<string>Kill 5 insects</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>008</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_KilledBySaw</string>
+		<key>Description</key>
+		<string>Get killed by an insect</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>009</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_Catch25Ropes</string>
+		<key>Description</key>
+		<string>Swing from 25 ropes</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>010</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_ShootFrom25Cannons</string>
+		<key>Description</key>
+		<string>Shoot from 25 cannons</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>011</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_Killed25Insects</string>
+		<key>Description</key>
+		<string>Kill 25 insects</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>012</key>
+	<dict>
+		<key>Key</key>
+		<string>ACH_KilledByBoulder</string>
+		<key>Description</key>
+		<string>Get killed by a boulder</string>
+		<key>Reward</key>
+		<dict>
+			<key>Type</key>
+			<string>Coin</string>
+			<key>Amount</key>
+			<string>50</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

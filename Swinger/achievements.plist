@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACH_CatchARope</key>
+	<string>SS_Catch_a_Rope</string>
+	<key>ACH_Catch5Ropes</key>
+	<string>SS_Catch_5_Ropes</string>
+	<key>ACH_Catch25Ropes</key>
+	<string>SS_Catch_25_Ropes</string>
+	<key>ACH_ShootFromCannon</key>
+	<string>SS_Shoot_From_Cannon</string>
+	<key>ACH_ShootFrom5Cannons</key>
+	<string>SS_Shoot_From_5_Cannons</string>
+	<key>ACH_ShootFrom25Cannons</key>
+	<string>SS_Shoot_From_25_Cannons</string>
+	<key>ACH_KilledInsect</key>
+	<string>SS_Killed_Insect</string>
+	<key>ACH_Killed5Insects</key>
+	<string>SS_Killed_5_Insects</string>
+	<key>ACH_Killed25Insects</key>
+	<string>SS_Killed_25_Insects</string>
+	<key>ACH_KilledByInsect</key>
+	<string>SS_Killed_By_Insect</string>
+	<key>ACH_KilledBySaw</key>
+	<string>SS_Killed_By_Saw</string>
+	<key>ACH_KilledByBoulder</key>
+	<string>SS_Killed_By_Boulder</string>
+</dict>
+</plist>

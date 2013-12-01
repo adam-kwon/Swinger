@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Worlds</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Grassy Knolls</string>
+			<key>Description</key>
+			<string>Grassy Knolls.</string>
+			<key>Sprite</key>
+			<string>GrassKnollsThumb.png</string>
+			<key>Price</key>
+			<string>0.00</string>
+			<key>Level</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Forest Retreat</string>
+			<key>Description</key>
+			<string>Forest Retreat.</string>
+			<key>Sprite</key>
+			<string>ForestRetreatThumb.png</string>
+			<key>Price</key>
+			<string>100000</string>
+			<key>Level</key>
+			<string>12</string>
+		</dict>
+    </array>
+	<key>PlayerSkins</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Gonzo</string>
+			<key>Type</key>
+			<string>Gonzo1</string>
+			<key>Description</key>
+			<string>Experiment gone wrong, half monkey
+half machine, full throtle hero!</string>
+			<key>Sprite</key>
+			<string>gonzoSlide_5.png</string>
+			<key>Price</key>
+			<string>0.00</string>
+			<key>Level</key>
+			<string>0</string>
+		</dict>
+	</array>
+	<key>PowerUps</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Magnet</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Magnet</string>
+			<key>Description</key>
+			<string>Pull in coins half way across the screen.</string>
+			<key>Sprite</key>
+			<string>magnet.png</string>
+			<key>Price</key>
+			<string>0.00</string>
+			<key>Level</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Magnet</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Magnet 2</string>
+			<key>Description</key>
+			<string>Pull in coins for a little longer.</string>
+			<key>Sprite</key>
+			<string>magnet.png</string>
+			<key>Price</key>
+			<string>5000</string>
+			<key>Level</key>
+			<string>7</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Magnet</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Magnet 3</string>
+			<key>Description</key>
+			<string>Magnetize coins for a full 10 seconds.</string>
+			<key>Sprite</key>
+			<string>magnet.png</string>
+			<key>Price</key>
+			<string>15000</string>
+			<key>Level</key>
+			<string>16</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Magnet</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Magnet 4</string>
+			<key>Description</key>
+			<string>Pull in coins from all the way across the screen for
+12 seconds straight!</string>
+			<key>Sprite</key>
+			<string>magnet.png</string>
+			<key>Price</key>
+			<string>40000</string>
+			<key>Level</key>
+			<string>25</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>SpeedBoost</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Hyper Speed Chip</string>
+			<key>Description</key>
+			<string>Pick up crazy speeds as you zoom through
+each level!</string>
+			<key>Sprite</key>
+			<string>cherry.png</string>
+			<key>Price</key>
+			<string>0.00</string>
+			<key>Level</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>SpeedBoost</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Hyper Speed Chip 2</string>
+			<key>Description</key>
+			<string>Pick up amazing speeds as you zoom through
+each level!</string>
+			<key>Sprite</key>
+			<string>cherry.png</string>
+			<key>Price</key>
+			<string>6000</string>
+			<key>Level</key>
+			<string>8</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>SpeedBoost</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Hyper Speed Chip 3</string>
+			<key>Description</key>
+			<string>Pick up ridiculous speeds as you breeze through
+each level.</string>
+			<key>Sprite</key>
+			<string>cherry.png</string>
+			<key>Price</key>
+			<string>17500</string>
+			<key>Level</key>
+			<string>17</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>SpeedBoost</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Hyper Speed Chip 4</string>
+			<key>Description</key>
+			<string>Go over twice your normal speed!</string>
+			<key>Sprite</key>
+			<string>cherry.png</string>
+			<key>Price</key>
+			<string>45000</string>
+			<key>Level</key>
+			<string>26</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>MissileLauncher</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Missile</string>
+			<key>Description</key>
+			<string>Target and pick off enemies half-way across
+the screen</string>
+			<key>Sprite</key>
+			<string>missile.png</string>
+			<key>Price</key>
+			<string>0</string>
+			<key>Level</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>MissileLauncher</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Missile 2</string>
+			<key>Description</key>
+			<string>Target and pick off enemies from across the screen</string>
+			<key>Sprite</key>
+			<string>missile.png</string>
+			<key>Price</key>
+			<string>8000</string>
+			<key>Level</key>
+			<string>9</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>MissileLauncher</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Missile 3</string>
+			<key>Description</key>
+			<string>Target and pick off enemies from across the screen
+lasts 10 seconds!</string>
+			<key>Sprite</key>
+			<string>missile.png</string>
+			<key>Price</key>
+			<string>22500</string>
+			<key>Level</key>
+			<string>18</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>MissileLauncher</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Missile 4</string>
+			<key>Description</key>
+			<string>Target and pick off enemies from across the screen
+for a full 12 seconds!</string>
+			<key>Sprite</key>
+			<string>missile.png</string>
+			<key>Price</key>
+			<string>55000</string>
+			<key>Level</key>
+			<string>27</string>
+		</dict>
+        <dict>
+			<key>Category</key>
+			<string>AngerPotion</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Mutation Potion</string>
+			<key>Description</key>
+			<string>Mutate into a gigantor stomping and mashing all
+enemies in your way!</string>
+			<key>Sprite</key>
+			<string>potion.png</string>
+			<key>Price</key>
+			<string>1000</string>
+			<key>Level</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>AngerPotion</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Mutation Potion 2</string>
+			<key>Description</key>
+			<string>Mutate into a gigantor, lasts a little longer!</string>
+			<key>Sprite</key>
+			<string>potion.png</string>
+			<key>Price</key>
+			<string>7000</string>
+			<key>Level</key>
+			<string>10</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>AngerPotion</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Mutation Potion 3</string>
+			<key>Description</key>
+			<string>Mutate into a gigantor for 10 full seconds!</string>
+			<key>Sprite</key>
+			<string>potion.png</string>
+			<key>Price</key>
+			<string>20000</string>
+			<key>Level</key>
+			<string>19</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>AngerPotion</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Mutation Potion 4</string>
+			<key>Description</key>
+			<string>Your mutation lasts a full 12 seconds!</string>
+			<key>Sprite</key>
+			<string>potion.png</string>
+			<key>Price</key>
+			<string>50000</string>
+			<key>Level</key>
+			<string>28</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>JetPack</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Rocket Fuel</string>
+			<key>Description</key>
+			<string>Activate your hero&apos;s jet pack and wave goodbye to
+all enemies in your way!</string>
+			<key>Sprite</key>
+			<string>fuelTank.png</string>
+			<key>Price</key>
+			<string>2000</string>
+			<key>Level</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>JetPack</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Rocket Fuel 2</string>
+			<key>Description</key>
+			<string>Activate your hero&apos;s jet pack, lasts a little longer!</string>
+			<key>Sprite</key>
+			<string>fuelTank.png</string>
+			<key>Price</key>
+			<string>9000</string>
+			<key>Level</key>
+			<string>11</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>JetPack</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Rocket Fuel 3</string>
+			<key>Description</key>
+			<string>Activate your hero&apos;s jet pack for 10 seconds!</string>
+			<key>Sprite</key>
+			<string>fuelTank.png</string>
+			<key>Price</key>
+			<string>25000</string>
+			<key>Level</key>
+			<string>20</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>JetPack</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Rocket Fuel 4</string>
+			<key>Description</key>
+			<string>Activate your hero&apos;s jet pack for a full 12 seconds!</string>
+			<key>Sprite</key>
+			<string>fuelTank.png</string>
+			<key>Price</key>
+			<string>65000</string>
+			<key>Level</key>
+			<string>29</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>CoinDoubler</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Coin Flipper</string>
+			<key>Description</key>
+			<string>Quickly stack up your stash by doubling the value of
+every coin you snag!</string>
+			<key>Sprite</key>
+			<string>coinDoubler.png</string>
+			<key>Price</key>
+			<string>2500</string>
+			<key>Level</key>
+			<string>4</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>CoinDoubler</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Coin Flipper 2</string>
+			<key>Description</key>
+			<string>Quickly stack up your stash by doubling the value of
+every coin you snag, lasts a little longer!</string>
+			<key>Sprite</key>
+			<string>coinDoubler.png</string>
+			<key>Price</key>
+			<string>10000</string>
+			<key>Level</key>
+			<string>13</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>CoinDoubler</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Coin Flipper 3</string>
+			<key>Description</key>
+			<string>Quickly stack up your stash by tripling the value of
+every coin you snag!</string>
+			<key>Sprite</key>
+			<string>coinDoubler.png</string>
+			<key>Price</key>
+			<string>27500</string>
+			<key>Level</key>
+			<string>22</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>CoinDoubler</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Coin Flipper 4</string>
+			<key>Description</key>
+			<string>Get 5X the value of each coin you snag!</string>
+			<key>Sprite</key>
+			<string>coinDoubler.png</string>
+			<key>Price</key>
+			<string>70000</string>
+			<key>Level</key>
+			<string>30</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Shield</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Shield</string>
+			<key>Description</key>
+			<string>Block enemy attacks and bump them out of your way!</string>
+			<key>Sprite</key>
+			<string>shield.png</string>
+			<key>Price</key>
+			<string>3000</string>
+			<key>Level</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Shield</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Shield 2</string>
+			<key>Description</key>
+			<string>Block enemy attacks and bump them out of your way
+lasts a little longer!</string>
+			<key>Sprite</key>
+			<string>shield.png</string>
+			<key>Price</key>
+			<string>11000</string>
+			<key>Level</key>
+			<string>14</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Shield</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Shield 3</string>
+			<key>Description</key>
+			<string>Block those baddies for 10 straight seconds!</string>
+			<key>Sprite</key>
+			<string>shield.png</string>
+			<key>Price</key>
+			<string>30000</string>
+			<key>Level</key>
+			<string>23</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Shield</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Shield 4</string>
+			<key>Description</key>
+			<string>You'll love the way they bounce off you for
+12 full seconds!</string>
+			<key>Sprite</key>
+			<string>shield.png</string>
+			<key>Price</key>
+			<string>75000</string>
+			<key>Level</key>
+			<string>31</string>
+		</dict>
+        <dict>
+			<key>Category</key>
+			<string>GrenadeLauncher</string>
+			<key>Type</key>
+			<string>Short</string>
+			<key>Name</key>
+			<string>Time Bomb</string>
+			<key>Description</key>
+			<string>Stops time while obliterating all enemies in sight!
+Triggered when an enemy comes within 100 feet.</string>
+			<key>Sprite</key>
+			<string>grenade.png</string>
+			<key>Price</key>
+			<string>4000</string>
+			<key>Level</key>
+			<string>6</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>GrenadeLauncher</string>
+			<key>Type</key>
+			<string>Medium</string>
+			<key>Name</key>
+			<string>Time Bomb 2</string>
+			<key>Description</key>
+			<string>Stops time while obliterating all enemies in sight!
+Triggered when an enemy comes within 200 feet.</string>
+			<key>Sprite</key>
+			<string>grenade.png</string>
+			<key>Price</key>
+			<string>13000</string>
+			<key>Level</key>
+			<string>15</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>GrenadeLauncher</string>
+			<key>Type</key>
+			<string>Long</string>
+			<key>Name</key>
+			<string>Time Bomb 3</string>
+			<key>Description</key>
+			<string>Stops time while obliterating all enemies in sight!
+Triggered when an enemy comes within 300 feet.</string>
+			<key>Sprite</key>
+			<string>grenade.png</string>
+			<key>Price</key>
+			<string>35000</string>
+			<key>Level</key>
+			<string>24</string>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>GrenadeLauncher</string>
+			<key>Type</key>
+			<string>Extended</string>
+			<key>Name</key>
+			<string>Time Bomb 4</string>
+			<key>Description</key>
+			<string>Stops time while obliterating all enemies in sight!
+Triggered when an enemy comes within 400 feet.</string>
+			<key>Sprite</key>
+			<string>grenade.png</string>
+			<key>Price</key>
+			<string>90000</string>
+			<key>Level</key>
+			<string>32</string>
+		</dict>
+	</array>
+	<key>LifeLines</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>1 Life Line</string>
+			<key>Description</key>
+			<string>An extra life line</string>
+			<key>Sprite</key>
+			<string>Star4.png</string>
+			<key>Amount</key>
+			<string>1</string>
+			<key>Price</key>
+			<string>1000</string>
+            <key>Level</key>
+            <string>0</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>5 Life Lines</string>
+			<key>Description</key>
+			<string>Gives you one bonus life line!</string>
+			<key>Sprite</key>
+			<string>Star4.png</string>
+			<key>Amount</key>
+			<string>5</string>
+			<key>Price</key>
+			<string>4000</string>
+            <key>Level</key>
+            <string>0</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>10 Life Lines</string>
+			<key>Description</key>
+			<string>Great value get 2 bonus life lines!</string>
+			<key>Sprite</key>
+			<string>Star4.png</string>
+			<key>Amount</key>
+			<string>10</string>
+			<key>Price</key>
+			<string>8000</string>
+            <key>Level</key>
+            <string>0</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>25 Life Lines</string>
+			<key>Description</key>
+			<string>Best value, get 5 bonus life lines!</string>
+			<key>Sprite</key>
+			<string>Star4.png</string>
+			<key>Amount</key>
+			<string>25</string>
+			<key>Price</key>
+			<string>20000</string>
+            <key>Level</key>
+            <string>0</string>
+		</dict>
+        <dict>
+			<key>Name</key>
+			<string>Bonus Lives</string>
+			<key>Description</key>
+			<string>2 bonus life lines!</string>
+			<key>Sprite</key>
+			<string>Star4.png</string>
+			<key>Amount</key>
+			<string>2</string>
+			<key>Price</key>
+			<string>0</string>
+            <key>Level</key>
+            <string>3</string>
+		</dict>
+        <dict>
+			<key>Name</key>
+			<string>Bonus Lives</string>
+			<key>Description</key>
+			<string>3 bonus life lines!</string>
+			<key>Sprite</key>
+			<string>Star4.png</string>
+			<key>Amount</key>
+			<string>3</string>
+			<key>Price</key>
+			<string>0</string>
+            <key>Level</key>
+            <string>21</string>
+		</dict>
+	</array>
+	<key>IAPs</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Unlimited Coin Doubler</string>
+			<key>Description</key>
+			<string>Great investment! Doubles the value of every coin
+you snag in the game.</string>
+			<key>ProductId</key>
+			<string>12345678</string>
+			<key>Sprite</key>
+			<string>Coin1_1.png</string>
+			<key>Coins</key>
+			<string>0</string>
+			<key>Price</key>
+			<string>0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sack of Coins</string>
+			<key>Description</key>
+			<string>Buy some sweet powers and life lines to chase
+those high scores!</string>
+			<key>ProductId</key>
+			<string>com.gamepeons.GONZO.25000Coins</string>
+			<key>Sprite</key>
+			<string>Coin1_2.png</string>
+			<key>Coins</key>
+			<string>25000</string>
+			<key>Price</key>
+			<string>0.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Mega Sack of Coins</string>
+			<key>Description</key>
+			<string>Buy more sweet powers, life lines and new heros.</string>
+			<key>ProductId</key>
+			<string>com.gamepeons.GONZO.100000Coins</string>
+			<key>Sprite</key>
+			<string>Coin1_4.png</string>
+			<key>Coins</key>
+			<string>100000</string>
+			<key>Price</key>
+			<string>1.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ultra Sack of Coins</string>
+			<key>Description</key>
+			<string>Get your umbrella! ella!! ella!! Its Raining Coins!!!</string>
+			<key>ProductId</key>
+			<string>com.gamepeons.GONZO.500000Coins</string>
+			<key>Sprite</key>
+			<string>Coin5_4.png</string>
+			<key>Coins</key>
+			<string>500000</string>
+			<key>Price</key>
+			<string>3.99</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ultimate Sack of Coins</string>
+			<key>Description</key>
+			<string>Who wants to be a millionaire??</string>
+			<key>ProductId</key>
+			<string>com.gamepeons.GONZO.1000000Coins</string>
+			<key>Sprite</key>
+			<string>Coin10_4.png</string>
+			<key>Coins</key>
+			<string>1000000</string>
+			<key>Price</key>
+			<string>7.99</string>
+		</dict>
+	</array>
+</dict>
+</plist>
